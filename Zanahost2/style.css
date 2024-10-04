@@ -1,0 +1,240 @@
+body {
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position:center;
+    background-image:url(dana3.png);
+    background-repeat:no-repeat;
+    background-size:400px;
+    background-attachment: fixed;
+    background-color:transparent;
+}
+h1 {
+    text-align: center;
+}
+
+.at img {
+    width: 8%;
+    height: 7%;
+padding-bottom: 50px;
+}
+
+.at2 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 24px;
+    color:rgb(230, 236, 235);
+    line-height: 1.5;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    margin-bottom: 80px;
+    padding-bottom: 100px;
+}
+
+.a3 {
+    padding: 3px;
+    transition: transform 0.3s ease, background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.a3:hover {
+    transform: scale(1.2);
+    background-color: rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.t1 {
+    width: 3%;
+    transform: scale(1.05);
+    
+}
+
+.a0 {
+    text-decoration: none;
+    color: white;
+    background: linear-gradient(45deg, #1e90ff, #00bfff);
+    border: none;
+    border-radius: 10px;
+    margin: 5px;
+    padding: 10px 100px;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease-in-out;
+}
+
+.a0:hover {
+    background: linear-gradient(45deg, #00bfff, #1e90ff);
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.p1 {
+    text-align: left;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    color: #1a91ec;
+    line-height: 1.6;
+    margin: 20px 0;
+}
+
+
+.a4, .a5 {
+    text-decoration: none;
+    color: #0c43fb;
+    font-weight: bold;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.a4:hover, .a5:hover {
+    color: #0056b3;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.a4:active, .a5:active {
+    color: #003d7a;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.p2 {
+    font-size: large;
+}
+
+footer {
+    padding: 20px;
+}
+
+header {
+    padding-bottom: 40px;
+    margin:10px;
+}
+
+@media (max-width: 1200px) {
+    .a0 {
+        padding: 10px 80px;
+    }
+
+    .at img {
+        width: 10%;
+    }
+
+    .t1 {
+        width: 5%;
+    }
+}
+
+@media (max-width: 992px) {
+    .a0 {
+        padding: 10px 60px;
+    }
+
+    .at img {
+        width: 15%;
+    }
+
+    .t1 {
+        width: 7%;
+    }
+}
+
+@media (max-width: 768px) {
+    .a0 {
+        padding: 10px 40px;
+    }
+
+    .at img {
+        width: 20%;
+    }
+
+    .t1 {
+        width: 10%;
+    }
+}
+
+@media (max-width: 576px) {
+    .a0 {
+        padding: 10px 20px;
+    }
+
+    .at img {
+        width: 25%;
+    }
+
+    .t1 {
+        width: 15%;
+    }
+}
+.s1{color:red;}
+::-webkit-scrollbar
+{
+    width:8px;
+}
+
+
+::-webkit-scrollbar-track{
+    background: #d1e5ff;
+}
+::-webkit-scrollbar-thumb
+{
+    background:#555;
+    border-radius: 10px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(#3ac0e5,#a8c9ef,#7acaf8);
+    
+ }
+.f1{
+    text-align: center;
+}
+.f1>img{
+    width:100px;
+    
+}
+.f1>img{
+    transition: all 0.7s ease-in-out;
+}
+.f1>img:hover{
+    width:200px;
+    transition-duration: 1s;    
+}
+.f1{
+    display:inline-block;
+    
+}
+.f1>img{
+    text-align: center;
+}
+.p4>img{
+    width:50px;
+   
+}
+.im1{
+    width:200px;
+}
+.im2{
+    width:200px;
+}
+td>figure>img{
+
+    transition: all 0.7s ease-in-out; 
+}
+td>figure>img:hover{
+    width:360px;
+    transition-duration: 1s;
+}
+.f2{
+    text-align:center;
+}
+caption{
+    font-size:20px;
+    font-weight:bold;
+}
+figcaption{
+    font-size:20px;
+    font-weight:bold;
+}
+
+
+
+  
+
+
